@@ -1,0 +1,58 @@
+/* navbar.component.css */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);    
+color: black;
+    padding: 10px;
+    border-radius: 60px; 
+    
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-links li {
+    margin-right: 15px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .nav-links li a:hover {
+    color: #f9f9f9;
+  }
+  
+  /* Center the navbar horizontally */
+  nav {
+    width: 80%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the navbar horizontally */
+  }
+  
+  /* Add styles for the login button */
+  .login-button {
+    padding: 8px 20px;
+    background-color: transparent ;
+    color: #333;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background-color: rgb(190, 170, 170)
+  }
+  
