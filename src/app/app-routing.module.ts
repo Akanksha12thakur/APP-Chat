@@ -7,7 +7,8 @@ import { LoginComponent } from './Mycompo/login/login.component';
 import { RegisterComponent } from './Mycompo/register/register.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
+  { path: '', pathMatch:'full' ,component: NavbarComponent },
+  { path: 'home', component: HomeComponent },
   { path: 'nav', component: NavbarComponent },
   { path: 'chat', component: ChatComponent },
   { path: 'login', component: LoginComponent },
